@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Cubicle</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <section class="sub-header">
+
+      <nav>
+        <a href="index.html"><img src="images/logo2.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <!-- <li><a href="blog.html">BLOG</a></li> -->
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="syllabus.html">SYLLABUS</a></li>
+          </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+      </nav>
+
+
+      <h1>Contact Us</h1>
+
+
+
+    </section>
+
+    <!-- ------Conatct us ----- -->
+
+    <section class="location">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.7711831620677!2d80.94252771408537!3d26.910756083128398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957b4f2b777ed%3A0x1ec294c05c4ec7d0!2sEngineering%20College%20Rd%2C%20Sector%20B%2C%20Aliganj%2C%20Lucknow%2C%20Uttar%20Pradesh%20226021!5e0!3m2!1sen!2sin!4v1643259024659!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+
+            <i class="fa fa-home"></i>
+
+            <span>
+              <h5>Near engineering College,Aliganj</h5>
+              <p>Lucknow ,Uttar Pardesh</p>
+            </span>
+
+          </div>
+          <div>
+
+            <i class="fa fa-phone"></i>
+
+            <span>
+              <h5>9044831997</h5>
+              <p>Monday to Saturday, 10AM to 6Pm</p>
+            </span>
+
+          </div>
+          <div>
+
+            <i class="fa fa-envelope-o"></i>
+
+            <span>
+              <h5>harshgaya42@gmail.com</h5>
+              <p>Email us for Query</p>
+            </span>
+
+          </div>
+
+        </div>
+        <div class="contact-col">
+          <form class="" action="form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email"name="email" placeholder="Enter Your Email" required>
+            <input type="text" name="subject"placeholder="Enter Your Subject" required>
+            <textarea rows="8" name="message"placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send</button>
+          </form>
+
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+<section class="footer">
+
+  <h4>About Us</h4>
+  <p>This is all about an <strong>"Idea"</strong><br>An idea which suggest that young
+    leading faculties from different institutions to come together to school and to start
+    a new culture of education.This is an idea to not allow a student for physical or mental sufferings.
+    This is an idea to bring a competitive quality in a very superior form top leading institutions
+    to the door steps of every city.We are a team of faculties from top leading institutions for JEE and NEET <p/>
+
+<div class="icons">
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-twitter"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-linkedin"></i>
+
+</div>
+<p>made with <i class="fa fa-heart-o"> </i> ONC Digital</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+      var navLinks=document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right="0";
+
+      }
+      function hideMenu(){
+        navLinks.style.right="-200px";
+
+      }
+
+
+
+
+    </script>
+
+  </body>
+</html>
